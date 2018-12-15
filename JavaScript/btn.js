@@ -20,7 +20,11 @@ toggle1Btn.addEventListener('click',function(){
     boxPanel.classList.add('active');
   }
 });
-
 toggle2Btn.addEventListener('click',function(){
   boxPanel.classList.toggle('active');
 });
+
+
+// addBtn.onclick = function(){
+//   boxPanel.classList.add('active');
+// };
